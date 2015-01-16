@@ -1,5 +1,4 @@
-import in_func
-import ph_key_func
+
 
 def rapid_func(filename):
     
@@ -37,9 +36,9 @@ def results_to_array(filename):
         # Read in files from line_start and beyond
         if i >= Line_start:
             Data=line.split()
-            Z.append(Data[0])
-            X.append(Data[1])
-            Y.append(Data[2])
+            Z.append(float(Data[0]))
+            X.append(float(Data[1]))
+            Y.append(float(Data[2]))
     print Z[0:4]
     print X[0:4]
     print Y[0:4]
