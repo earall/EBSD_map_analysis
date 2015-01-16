@@ -15,7 +15,7 @@ def phase_key(filename):
     Line_b=Ph_nums+12
 
 #create list of phases
-    f = open ('AL001MeltsNR.ctf','r')
+    f = open (filename,'r')
     phase=[]
     for i, line in enumerate(f):
 # Read in files from line_start and beyone
