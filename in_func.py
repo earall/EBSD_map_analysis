@@ -1,5 +1,5 @@
 # FUNCTION results_to_array converting data from headered file into an 
-array
+
 def results_to_array(filename):
 
 ## Read in file and find number of phases, this alters file 
