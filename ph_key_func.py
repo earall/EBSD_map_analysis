@@ -1,3 +1,5 @@
+import numpy as np
+
 def phase_key(filename):
 
     f = open (filename,'r')
