@@ -1,13 +1,12 @@
+import in_func
+import ph_key_func
+
 def rapid_func(filename):
     
-
 ### Calling functions
-    %run in_func.py
-    %run ph_key_func.py
-    
     print 'running phase key...'
-    key=phase_key(filename)
+    key=ph_key_func.phase_key(filename)
     print '*******************'
     print 'running results...'
-    data=results_to_array(filename)
+    data=in_func.results_to_array(filename)
     return data, key
