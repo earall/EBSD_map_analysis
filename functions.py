@@ -4,10 +4,10 @@ def rapid_func(filename):
     
 ### Calling functions
     print 'running phase key...'
-    key=ph_key_func.phase_key(filename)
+    key=phase_key(filename)
     print '*******************'
     print 'running results...'
-    data=in_func.results_to_array(filename)
+    data=results_to_array(filename)
     return data, key
 # FUNCTION results_to_array converting data from headered file into an 
 
